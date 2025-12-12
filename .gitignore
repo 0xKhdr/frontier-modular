@@ -1,0 +1,8 @@
+!.gitignore
+.idea
+.vscode
+.phpunit.cache
+.env
+docker-compose.yml
+compose
+vendor
