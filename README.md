@@ -3,7 +3,6 @@
   <p align="center">
     <strong>Modular Architecture Wrapper for Frontier</strong>
   </p>
-</p>
 
 ---
 
