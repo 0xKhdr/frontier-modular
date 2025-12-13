@@ -1,6 +1,6 @@
 {
-  "name": "frontier/module",
-  "description": "Laravel Frontier Modules Package",
+  "name": "frontier/modular",
+  "description": "Laravel Frontier Modular Package",
   "type": "library",
   "license": "MIT",
   "keywords": [
@@ -30,12 +30,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Frontier\\Modules\\": "src/"
+      "Frontier\\Modular\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Frontier\\Modules\\Tests\\": "tests/"
+      "Frontier\\Modular\\Tests\\": "tests/"
     }
   },
   "scripts": {
@@ -54,7 +54,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Frontier\\Modules\\Providers\\ServiceProvider"
+        "Frontier\\Modular\\Providers\\ServiceProvider"
       ]
     }
   }

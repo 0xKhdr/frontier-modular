@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Frontier\Modules\Tests;
+namespace Frontier\Modular\Tests;
 
-use Frontier\Modules\Providers\ServiceProvider;
+use Frontier\Modular\Providers\ServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

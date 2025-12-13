@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Frontier\Modules\Providers\ServiceProvider;
+use Frontier\Modular\Providers\ServiceProvider;
 
 describe('ServiceProvider', function (): void {
     it('can be instantiated', function (): void {

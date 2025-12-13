@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Frontier\Modules\Providers;
+namespace Frontier\Modular\Providers;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 /**
- * Frontier Modules package service provider.
+ * Frontier Modular package service provider.
  *
  * Provides integration with internachi/modular for modular Laravel applications.
  */
@@ -23,7 +23,7 @@ class ServiceProvider extends IlluminateServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 $this->getModularConfigPath() => config_path('app-modules.php'),
-            ], 'frontier-module-config');
+            ], 'frontier-modular-config');
         }
     }
 
