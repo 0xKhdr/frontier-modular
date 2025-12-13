@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Frontier Module</h1>
+  <h1 align="center">Frontier Modular</h1>
   <p align="center">
     <strong>Modular Architecture Support for Frontier</strong>
   </p>
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/packagist/v/frontier/module" alt="Latest Version">
+  <img src="https://img.shields.io/packagist/v/frontier/modular" alt="Latest Version">
   <img src="https://img.shields.io/badge/PHP-8.2+-777BB4" alt="PHP Version">
   <img src="https://img.shields.io/badge/Laravel-10|11|12-FF2D20" alt="Laravel Version">
 </p>
@@ -22,7 +22,7 @@
 
 ## Introduction
 
-**Frontier Module** provides seamless integration with [internachi/modular](https://github.com/InterNACHI/modular) for the Frontier ecosystem. It enables modular architecture support across all Frontier packages, allowing you to organize your application into domain-driven modules.
+**Frontier Modular** provides seamless integration with [internachi/modular](https://github.com/InterNACHI/modular) for the Frontier ecosystem. It enables modular architecture support across all Frontier packages, allowing you to organize your application into domain-driven modules.
 
 ## Features
 
@@ -36,7 +36,7 @@
 ## Installation
 
 ```bash
-composer require frontier/module
+composer require frontier/modular
 ```
 
 ---
